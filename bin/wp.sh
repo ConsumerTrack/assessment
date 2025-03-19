@@ -15,5 +15,4 @@
 # Command: ./bin/wp.sh 'post create --post_type=page --post_title="New Page" --post_content="Hello World"'
 ##################################
 
-npx wp-env run cli \
-    "wp ${@:-help}" 2>/dev/null
+npx wp-env run cli wp "${@:-help}"
